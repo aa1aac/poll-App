@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>poll</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- <link rel="stylesheet" href="" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>OS Vote</h1>
+      <p>vote for your favourite os todevelop on</p>
+      <form id="vote-form">
+        <p>
+          <label for="windows">
+            <input
+              type="radio"
+              name="os"
+              id="windows"
+              value="windows"
+              checked
+              class="with-gap"
+            />
+            <span>Windows</span></label
+          >
+        </p>
+        <p>
+          <label for="macos">
+            <input
+              type="radio"
+              name="os"
+              id="macos"
+              value="macos"
+              class="with-gap"
+            />
+            <span>MacOs</span></label
+          >
+        </p>
+        <p>
+          <label for="linux">
+            <input
+              type="radio"
+              name="os"
+              id="linux"
+              value="linux"
+              class="with-gap"
+            />
+            <span>Linux Distros</span></label
+          >
+        </p>
+        <p>
+          <label for="other"
+            ><input
+              type="radio"
+              name="os"
+              id="other"
+              value="other"
+              class="with-gap"
+            />
+            <span>Other</span>
+          </label>
+        </p>
+        <input type="submit" value="Vote" class="btn" />
+      </form>
+      <br />
+      <br />
+      <div id="chartContainer" style:"height:300px;width:100%">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.4.0/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
